@@ -1,0 +1,20 @@
+{
+  // Required
+  "manifest_version": 2,
+  "name": "ran.de NFL Highlights",
+  "version": "1.0.0",
+  "icons": {
+    "32": "icon_32.png",
+    "48": "icon_64.png",
+    "64": "icon_64.png",
+    "128": "icon_64.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://*.ran.de/us-sport/nfl/video*"],
+      "js": ["nfl-highlights.js"],
+      "css": ["nfl-highlights.css"]
+    }
+  ]
+}

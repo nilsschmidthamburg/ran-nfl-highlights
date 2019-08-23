@@ -1,0 +1,16 @@
+/* Hide descriptions as they may contain information about game results */
+.teaser-headline, .teaser-description {
+  color: white !important;
+}
+
+.topbar-container, .footer {
+  display: none;
+}
+
+body, .main {
+  background-color: #113 !important;
+}
+
+.container-headline {
+  color: whitesmoke !important;
+}
