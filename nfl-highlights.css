@@ -1,9 +1,15 @@
 /* Hide descriptions as they may contain information about game results */
-.teaser-headline, .teaser-description {
+.teaser-headline,
+.teaser-description {
   color: white !important;
 }
 
-.topbar-container, .footer {
+.video-page .video-info {
+  display: none;
+}
+
+.topbar-container,
+.footer {
   display: none;
 }
 
