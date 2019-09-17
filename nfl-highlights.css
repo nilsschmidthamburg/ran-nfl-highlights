@@ -11,6 +11,6 @@ body, .main {
   background-color: #113 !important;
 }
 
-.container-headline {
-  color: whitesmoke !important;
+.module-header.container-header {
+    display: none;
 }
