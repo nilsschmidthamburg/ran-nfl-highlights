@@ -81,13 +81,14 @@ Array.from(document.querySelectorAll("section.element.grid-component")).filter(i
 document.querySelectorAll(".btn-more").forEach(btn => btn.click());
 setTimeout(() => document.querySelectorAll(".btn-more").forEach(btn => btn.click()), 2000);
 setTimeout(() => document.querySelectorAll(".btn-more").forEach(btn => btn.click()), 2000);
+setTimeout(() => document.querySelectorAll(".btn-more").forEach(btn => btn.click()), 2000);
 
 
 setTimeout(() => {
-  // Good Stuff!
+  // Find teasers
   var teasers = document.querySelectorAll("#mount .main .middle .content .content-area .teaser:not(.multiteaser)");
 
-  // Hide all videos that are not highlights!
+  // Hide all videos that are not highlights
   Array.from(teasers).filter(isNotHighlight).forEach(remove)
 
   // Relabel videos that are highlights
