@@ -9,12 +9,17 @@
     "64": "icon_64.png",
     "128": "icon_64.png"
   },
-
   "content_scripts": [
     {
-      "matches": ["https://*.ran.de/us-sport/nfl/video*"],
-      "js": ["nfl-highlights.js"],
-      "css": ["nfl-highlights.css"]
+      "matches": [
+        "https://*.ran.de/us-sport/nfl/video*"
+      ],
+      "js": [
+        "nfl-highlights.js"
+      ],
+      "css": [
+        "nfl-highlights.css"
+      ]
     }
   ]
 }

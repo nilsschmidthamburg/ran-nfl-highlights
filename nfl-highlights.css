@@ -1,20 +1,20 @@
 /* Hide descriptions as they may contain information about game results */
 .teaser-headline,
 .teaser-description {
-  color: white !important;
+    color: rgba(0, 0, 0, 0.0) !important;
 }
 
 .video-page .video-info {
-  display: none;
+    display: none;
 }
 
 .topbar-container,
 .footer {
-  display: none;
+    display: none;
 }
 
 body, .main {
-  background-color: #112 !important;
+    background-color: #112 !important;
 }
 
 .module-header.container-header {
